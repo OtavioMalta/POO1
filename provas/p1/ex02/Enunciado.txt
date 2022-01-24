@@ -1,0 +1,42 @@
+Considere o requisito abaixo que foi elaborado para modelagem 
+de um banco de dados de uma instituição financeira. Várias classes 
+devem ser construídas a partir desses requisitos. 
+
+Construa três dessas classes, de forma a atender por completo 
+os requisitos listados relacionados às respectivas classes. 
+O aluno é livre para a escolha de quais classes vai implementar. 
+
+Tema Base: Agência Bancária
+
+•	O banco é organizado em agências. Cada agência está 
+localizada em uma determinada cidade/estado e é identificada 
+por um nome único.
+
+•	Os clientes do banco são identificados por um número (id). 
+O banco armazena o nome, CPF, data de nascimento, endereço, 
+a cidade e o estado do cliente. Os clientes podem ter contas 
+correntes. Cada cliente possui um gerente, com quem pode 
+tirar suas dúvidas e manter um canal de relacionamento com o banco.
+
+•	Os funcionários do banco são identificados por um número 
+funcional. A administração do banco armazena o nome e número 
+de telefone de cada funcionário, e os nomes dos dependentes do 
+funcionário. Cada funcionário tem um supervisor (que também é
+um funcionário). O banco também controla a data de admissão do 
+funcionário e, portanto, o tempo de serviço. Um funcionário 
+está vinculado a uma agência.
+
+•	As contas correntes podem ser mantidas por mais de um cliente,
+ e um cliente pode ter mais de uma conta. Cada conta recebe um 
+ número de identificação único para uma mesma agência. 
+ Também é armazenada a data de criação da conta. O banco 
+ mantém um registro do saldo de cada conta e a data mais 
+ recente em que a conta foi acessada pelo cliente. 
+ 
+•	Operações bancárias são realizadas nas contas correntes. 
+Para cada operação são guardadas as seguintes informações: 
+tipo (crédito ou débito), descrição (o que significa a operação 
+– e.g., “Pagamento de Luz”, “Pagamento de boleto”, “Depósito”), 
+valor em Reais e data. A operação é identificada por um número 
+sequencial único para cada conta corrente.
+

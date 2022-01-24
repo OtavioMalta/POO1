@@ -1,0 +1,17 @@
+Faça um programa para calcular a área de um retângulo. 
+Para isso, crie uma classe Ponto, que armazenará as 
+coordenadas reais (x,y) de um ponto. Em seguida, crie 
+uma classe chamada Retangulo, que define um retângulo, 
+isto é, armazena os dois pontos das extremidades da diagonal 
+do retângulo. Utilize as boas práticas de POO que aprendemos 
+até o momento no curso para criação das classes. 
+Cada classe deve ter dois construtores (documente brevemente no 
+código a diferença entre eles)
+
+Para uso das classes, fazer:
+(a)	Peça para o usuário informar os pontos que definem 
+    o retângulo e mostre a área do mesmo. 
+	
+(b)	Crie um programa que leia as informações de n retângulos 
+e ao final mostre todas as informações lidas e indique 
+o retângulo de maior área
