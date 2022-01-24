@@ -164,7 +164,6 @@ public class TLista {
                 aux2.setNext(null);
                 rear = aux2;
             }
-            
             size--;
             return 0;
         }
