@@ -34,6 +34,6 @@ public class Retangulo {
 
     public Double area(){   
         return (ponto2.getX()-ponto1.getX())*(ponto2.getY()-ponto1.getY());
-    }
+    }// check:use Math.abs
 }
 

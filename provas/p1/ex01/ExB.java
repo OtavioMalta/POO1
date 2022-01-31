@@ -5,7 +5,7 @@ public class ExB {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Quantidade de ratangulos: ");
-        ArrayList<Retangulo> lista = new ArrayList<Retangulo>();
+        ArrayList<Retangulo> lista = new ArrayList<Retangulo>();// check:podia ter feito com um vetor simples
         Ponto ponto1 = new Ponto(0,0);
         Ponto ponto2 = new Ponto(0,0);
         Retangulo maiorRetangulo = new Retangulo(ponto1,ponto2);
