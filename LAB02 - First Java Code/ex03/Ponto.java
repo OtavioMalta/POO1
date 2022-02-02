@@ -46,7 +46,7 @@ public class Ponto {
     }
 
     public static Integer calc_area(Ponto p1, Ponto p2){
-        return (int)Math.sqrt( Math.pow(p2.getX()-p1.getX(), 2) + Math.pow(p2.getY()-p1.getY(), 2));
+        return(p2.getX()-p1.getX())*(p2.getY()-p1.getY());
     }
 
     public void mult(Integer c){
