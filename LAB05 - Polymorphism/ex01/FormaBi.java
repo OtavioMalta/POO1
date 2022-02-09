@@ -1,5 +1,4 @@
 public class FormaBi extends Forma{
-    protected double area;
     
     public double obterArea(){
         return area;

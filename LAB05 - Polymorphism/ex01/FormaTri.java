@@ -1,5 +1,4 @@
 public class FormaTri extends Forma{
-    protected double area;
     protected double volume;
 
     public double obterVolume(){

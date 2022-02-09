@@ -1,4 +1,6 @@
 public class Forma {
+   protected double area;
+
     public void descricao(){
         
     }
