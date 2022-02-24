@@ -1,0 +1,21 @@
+Implemente uma lista simplesmente encadeada de tipo inteiros (int)
+
+Nomes dos métodos
+push_front ok 
+push_back ok 
+insert (pos) ok 
+insert_sorted ok
+size ok
+
+pop_front ok
+pop_back ok
+erase_data ok
+erase_pos ok
+
+find_pos ok
+find_data ?
+front ok
+back ok
+get_pos ok
+print ok
+
