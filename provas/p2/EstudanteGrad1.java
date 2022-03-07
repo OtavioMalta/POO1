@@ -8,6 +8,15 @@ public class EstudanteGrad1 extends Estudante1{
         
     }
 
+
+    public EstudanteGrad1(String cpf, String matricula, String nome,int CargaHorariaDisciplinas, int CargaHorariaComplementar, String TituloTCC, String LocalEstagio) {
+        super(cpf, matricula, nome, CargaHorariaDisciplinas);
+        this.CargaHorariaComplementar = CargaHorariaComplementar;
+        this.TituloTCC = TituloTCC;
+        this.LocalEstagio = LocalEstagio;
+    }
+
+
    
 
     public int getCargaHorariaDisciplinas() {

@@ -13,6 +13,8 @@ public class EstudantePosGrad1 extends Estudante1 implements Senioridade{
         this.Nivel = Nivel;
         this.TemaProjetoPesquisa = TemaProjetoPesquisa;
     }
+
+    
    
     public EstudantePosGrad1(String CPF, String Nome, String Matricula) {
         super(CPF, Matricula, Nome);

@@ -2,6 +2,8 @@ public class Universidade1 {
 
     public static void main(String[] args){
         
+
+        // Por uma questão de tempo, não usei os construtores com todos os campos
         Estudante1 estudantes[] = new Estudante1[6];
         estudantes[0] = new EstudanteGrad1("012.123.432-44","12411BSI382","Maria Joaquina");
         estudantes[1] = new EstudanteGrad1("231.123.222-46","12421BSI082","Jaime Palillo");

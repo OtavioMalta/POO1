@@ -13,6 +13,7 @@ public class EstudantePosGrad2 extends Estudante2{
         this.TemaProjetoPesquisa = TemaProjetoPesquisa;
     }
     
+    
 
     public int getCargaHorariaDisciplinas() {
         return CargaHorariaDisciplinas;
