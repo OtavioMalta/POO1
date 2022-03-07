@@ -1,4 +1,4 @@
-public class EstudantePosGrad2 extends Estudante2{
+public class EstudantePosGrad2 extends Estudante2 implements Senioridade{
     String CPF;
     String Nome;
     String Matricula;
@@ -13,7 +13,7 @@ public class EstudantePosGrad2 extends Estudante2{
         this.TemaProjetoPesquisa = TemaProjetoPesquisa;
     }
     
-    
+
 
     public int getCargaHorariaDisciplinas() {
         return CargaHorariaDisciplinas;
@@ -51,6 +51,15 @@ public class EstudantePosGrad2 extends Estudante2{
     @Override
     public void gerarCertificado() {
         System.out.println("Certifico que o " +  super.Nome + "realiza estágio em " + this.TemaProjetoPesquisa);
+    }
+
+    @Override
+    public boolean ehSenior(Senioridade obj) {
+        if(Nivel.equals("Doutorado")){
+            return true;
+        }else{
+            return false;
+        }
     }
 }
 
