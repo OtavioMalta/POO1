@@ -1,4 +1,4 @@
-public class EstudantePosGrad {
+public class EstudantePosGrad1 extends Estudante1 implements Senioridade{
     String CPF;
     String Nome;
     String Matricula;
@@ -6,10 +6,16 @@ public class EstudantePosGrad {
     String Nivel; // doutorado ou mestrado
     String TemaProjetoPesquisa;
 
-    public EstudantePosGrad(String CPF, String matricula, String nome) {
-        this.CPF = CPF;
-        Nome = nome;
-        Matricula = matricula;
+
+    public EstudantePosGrad1(String CPF, String Nome, String Matricula, int CargaHorariaDisciplinas, String Nivel, String TemaProjetoPesquisa) {
+        super(CPF, Matricula, Nome, CargaHorariaDisciplinas);
+        
+        this.Nivel = Nivel;
+        this.TemaProjetoPesquisa = TemaProjetoPesquisa;
+    }
+   
+    public EstudantePosGrad1(String CPF, String Nome, String Matricula) {
+        super(CPF, Matricula, Nome);
     }
 
     public int getCargaHorariaDisciplinas() {
@@ -43,6 +49,15 @@ public class EstudantePosGrad {
         System.out.println("Carga Horária: " +  CargaHorariaDisciplinas);
         System.out.println("Nível: " +  Nivel);
         System.out.println("Tema de pesquisa: " +  TemaProjetoPesquisa);
+    }
+
+    @Override
+    public boolean ehSenior(Senioridade obj) {
+        if(Nivel.equals("Doutorado")){
+            return true;
+        }else{
+            return false;
+        }
     }
 }
 

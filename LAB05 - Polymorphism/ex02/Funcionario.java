@@ -1,4 +1,4 @@
-public class Funcionario extends Pessoa {
+public class Funcionario extends Pessoa2 {
 
     protected int matricula;
     protected float salarioBase;

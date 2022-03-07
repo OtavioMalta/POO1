@@ -1,17 +1,14 @@
-public class EstudanteGrad {
-    String Matricula;
-    String Nome;
-    String CPF;
-    int CargaHorariaDisciplinas;
+public class EstudanteGrad1 extends Estudante1{
     int CargaHorariaComplementar;
     String TituloTCC;
     String LocalEstagio;
 
-    public EstudanteGrad(String cpf, String matricula, String nome) {
-        Nome = nome;
-        Matricula = matricula;
-        CPF = cpf;
+    public EstudanteGrad1(String cpf, String matricula, String nome) {
+        super(cpf, matricula, nome);
+        
     }
+
+   
 
     public int getCargaHorariaDisciplinas() {
         return CargaHorariaDisciplinas;
